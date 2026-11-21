@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- <img src="https://emojicdn.elk.sh/🌾?style=google" width="120" height="120"/> -->
-  <img src="docs/logo.svg" width="120" height="120"/>
+  <img src="https://cdn-icons-png.flaticon.com/512/2909/2909763.png" width="120" height="120" alt="AgriRAG Logo"/>
 </div>
 
 # AgriRAG Assistant
