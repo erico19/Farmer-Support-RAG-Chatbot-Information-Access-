@@ -1,4 +1,4 @@
-﻿<div align="center">
+<div align="center">
   <!-- <img src="https://emojicdn.elk.sh/🌾?style=google" width="120" height="120"/> -->
   <img src="docs/logo.svg" width="120" height="120"/>
 </div>
@@ -37,6 +37,7 @@ graph LR
         G[GitHub] --> H[CI/CD]
         H --> I[Streamlit Cloud / Hugging Face]
     end
+
 
 
 🚀 How to Setup on Local PC & Run the Application
