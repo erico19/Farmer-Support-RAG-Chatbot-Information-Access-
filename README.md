@@ -27,9 +27,11 @@ Git installed on your computer.
 Step 1: Clone the repository
 Open your terminal or command prompt and run:
 
+
 bash
 git clone (https://github.com/erico19/Farmer-Support-RAG-Chatbot-Information-Access-/tree/main)
 cd AgriRAG
+
 Step 2: Create a Virtual Environment (Recommended)
 It is best practice to run this in a virtual environment to avoid dependency conflicts.
 
