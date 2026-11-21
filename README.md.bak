@@ -1,0 +1,39 @@
+# AgroRAG Uganda 🌾
+
+AgroRAG Uganda is a RAG-based AI assistant designed to answer agricultural questions using local Ugandan knowledge sources. Instead of relying only on a general-purpose language model, the system retrieves relevant passages from a curated document collection and uses them to produce grounded, context-aware responses.
+
+## Purpose
+
+The project is intended to make agricultural information easier to find and understand for:
+- smallholder and commercial farmers
+- agricultural students and researchers
+- extension workers and local advisers
+- policymakers and development partners
+
+## What It Does
+
+AgroRAG Uganda combines document retrieval with text generation:
+1. A user asks a question in natural language.
+2. The system searches a local knowledge base of Ugandan agricultural materials.
+3. Relevant excerpts are passed to a language model.
+4. The model generates an answer grounded in the retrieved context.
+
+## Knowledge Base
+
+The document collection can include:
+- MAAIF reports and policy documents
+- NARO research outputs and technical guides
+- district agriculture office materials
+- NGO and development partner reports
+- extension manuals, PDFs, and DOCX files
+
+## System Overview
+
+```mermaid
+flowchart TD
+    U[User question] --> S[Streamlit interface]
+    S --> R[Document retriever]
+    R --> K[Ugandan agricultural knowledge base]
+    R --> L[Open-source language model]
+    L --> A[Context-grounded answer]
+    A --> S
